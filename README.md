@@ -11,6 +11,9 @@ Set environment using the ST SDK script. Find SDK and more details @ above link
 
 Enter the build directory in the Demo application source code 
  $ cd Linux_RFAL_st25r3911_v2.2.0/linux_demo/build
+ 
+Remove all files and folders from this directory
+ $ rm -rf *
 
 RUN below command to generate makefiles from CMakeLists 
  $ cmake ..
