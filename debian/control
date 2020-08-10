@@ -1,0 +1,13 @@
+Source: st-x-linux-nfc5
+Section: misc
+Priority: extra
+Maintainer: subodhsvs <subodhsvs@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+
+Package: st-x-linux-nfc5
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ST X linux NFC5
+ ST Linux NFC5

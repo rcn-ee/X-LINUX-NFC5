@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+override_dh_auto_build:
+	cd ./Linux_RFAL_st25r3911_v2.2.0/linux_demo/build/ ; cmake .. ; make
+
+%:
+	dh $@

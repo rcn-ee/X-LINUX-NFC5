@@ -1,0 +1,5 @@
+st-x-linux-nfc5 (0.0.1-0) buster; urgency=low
+
+  * Rebuild for repos.rcn-ee.com
+
+ -- Robert Nelson <robertcnelson@gmail.com>  Thu, 06 Aug 2020 13:27:26 -0500
